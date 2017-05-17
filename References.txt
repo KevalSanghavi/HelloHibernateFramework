@@ -1,3 +1,4 @@
 http://hibernate.org/
 https://www.tutorialspoint.com/hibernate/
 https://www.youtube.com/watch?v=Yv2xctJxE-w&list=PL4AFF701184976B25
+https://www.youtube.com/watch?v=onS9G0zpQwA&list=PLBgMUB7xGcO0cujAlaeDDEOdZkeNZUScM
