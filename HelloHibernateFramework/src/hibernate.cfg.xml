@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+
+		<property name="hibernate.dialect">
+			org.hibernate.dialect.MySQLDialect
+		</property>
+		<property name="hibernate.connection.driver_class">
+			com.mysql.jdbc.Driver
+		</property>
+		<property name="hibernate.connection.url">
+			jdbc:mysql://localhost:3306/TEST
+		</property>
+		<property name="hibernate.connection.username">
+			root
+		</property>
+		<property name="hibernate.connection.password">
+			Admin@123
+		</property>
+
+		<property name="hibernate.jdbc.batch_size">
+			50
+		</property>
+
+		<!-- List of XML mapping files -->
+		<mapping resource="employee.hbm.xml" />
+		<mapping resource="employee2.hbm.xml" />
+		<mapping resource="employee3.hbm.xml" />
+		<mapping resource="employee4.hbm.xml" />
+		<mapping resource="employee5.hbm.xml" />
+		<mapping resource="employee6.hbm.xml" />
+		<mapping resource="employee7.hbm.xml" />
+		<mapping resource="employee8.hbm.xml" />
+		<mapping resource="employee9.hbm.xml" />
+		<mapping resource="employee10.hbm.xml" />
+		<mapping resource="employee11.hbm.xml" />
+		<mapping resource="employee12.hbm.xml" />
+		<!-- There is no employee13.hbm.xml -->
+		<mapping resource="employee14.hbm.xml" />
+		<mapping resource="employee15.hbm.xml" />
+		<mapping resource="employee16.hbm.xml" />
+		<mapping resource="employee17.hbm.xml" />
+
+		<!-- Uncomment below line while running project.package13 code. -->
+		<!-- <mapping class="project.package13.Employee"/> -->
+
+	</session-factory>
+
+</hibernate-configuration>
